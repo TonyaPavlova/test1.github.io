@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Meta-->
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>TestMaison2</title>
+   
+
+<SCRIPT>
+
+function leapTo (link)
+{
+var new_url=link;
+if ( (new_url != "") && (new_url != null) )
+window.location=new_url;
+else
+alert("");
+}
+function viewSource()
+{
+var current_url="";
+current_url=document.location;
+window.location= "view-source:"+current_url;
+}
+
+</SCRIPT>
+
+
+        <!--CSS-->
+    
+
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    
+    
+  </head>
+  <body>
+
+<!--MainPage-->
+  <div class="TestWrapper">
+
+  
+
+   <div class="TestSectionTwo">
+
+      
+  
+
+
+
+
+    <div class="quetions">
+   
+      <p class="two">Ты ищешь аромат:<br>
+      <br>
+      <br>
+    <label>
+      <input type="radio" name="q2" onclick="leapTo('I:\Верстка\Тест\3\index_3.html')" value="Парфюмерная вода">
+      Более интенсивный</label>
+    <br>
+    <label>
+      <input type="radio" name="q2" onclick="leapTo('I:\Верстка\Тест\6\index_6.html')" value="Туалетная вода">
+      Менее интенсивнй</label>
+    <br>  
+  </p>
+  
+     </div>
+
+   <div class="logoBottom">
+     <img src="http://multimedia.newsletter.rivegauche.ru/rivegauche/1/1/photos/4011.jpg" alt=""> 
+   </div> 
+
+
+  
+
+
+
+
+  </div>
+       <!-- /banners  -->
+</body>
+</html>
